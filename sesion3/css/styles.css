@@ -1,0 +1,80 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container__main{
+    color: blueviolet;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.p__secondary{
+    font-size: 15px;
+}
+
+.p__secondary--blue{
+    color: blue;
+}
+
+.p__secondary--green{
+    color: green;
+}
+
+p{
+    color: yellowgreen;
+}
+
+.p__third--big{
+    font-size: larger;
+}
+
+.p__third--small{
+    font-size: small;
+}
+
+.p__third--bold{
+    font-weight: bold;
+}
+
+.div__login{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.form__login > * {
+    margin: 7px;
+    text-align: center;
+}
+
+.button__submit{
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 160px;
+    color: white;
+}
+
+.form__login > .input__email--green {
+    color: green;
+}
+
+.form__login > .input__email--green + label {
+    font-style: italic;
+}
+
+.form__login > .input__password + .button__submit {
+    box-shadow: 10px 5px 5px rgb(170, 102, 102, .5);
+}
+
+.button__submit:hover {
+    background-color: brown;
+    font-weight: bold;
+}

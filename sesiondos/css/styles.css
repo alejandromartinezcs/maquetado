@@ -1,0 +1,32 @@
+    /* Aquí van las reglas CSS */
+
+table, th, td, div {
+    border: 1px solid black;
+}
+
+
+.Hola {
+    /* No quiero tener un borde en este div */
+    border: none;
+    color: purple;
+    font-size: 5rem;
+}
+
+.HowRreU {
+    border: 1rem solid green;
+    background-color: aqua;
+    font-size: 5rem;
+    color: brown;
+}
+
+/* div {
+    border: 10px dotted rgb(75, 240, 42);
+} */
+
+/* th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+} */
