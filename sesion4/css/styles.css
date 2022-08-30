@@ -48,7 +48,7 @@ h1 {
 
 .img__z-index{
     position: absolute;
-    z-index: -2;
+    z-index: -3;
 }
 
 .p__z-index--white{
@@ -64,4 +64,3 @@ h1 {
 .button__z-index{
     z-index: 1;
 }
-
