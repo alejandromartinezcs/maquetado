@@ -1,0 +1,71 @@
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: turquoise;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+}
+
+@media only screen and (min-width: 922px) {
+    body {
+        background-color: hotpink;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+} */
+
+.div__2D-tranforms > .button {
+    margin: 30px;
+    border: none;
+    width: 180px;
+    border-radius: 15px 0px 15px 0px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.button__ease--hotpink {
+    background-color: hotpink;
+    transition-timing-function: ease;
+}
+
+.button__ease--hotpink:hover {
+    width: 240px;
+}
+
+.div__card--border-black{
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .div__card--border-black {
+        display: none;
+    }
+    .button__ease--hotpink {
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .div__card--border-black {
+        background-color: hotpink;
+    }
+}
