@@ -1,8 +1,54 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    font-size: 50px;
     color: hotpink;
+}
+
+.span__display-none {
+    display: none;
+}
+
+.span__display-in-line--red {
+    display: inline;
+    color: red;
+    padding: 50px;
+}
+
+.span__display-in-block--red {
+    display: block;
+    color: whitesmoke;
+    width: 140px;
+    height: 110px;
+    padding: 7px;
+    /* border: 10px blue; */
+    background-color: hotpink;
+    font-weight: bold;
+}
+
+.span__display-in-line-block--red {
+    display: inline-block;
+    color: whitesmoke;
+    width: 140px;
+    height: 110px;
+    padding: 7px;
+    /* border: 10px blue; */
+    background-color: hotpink;
+    font-weight: bold;
+}
+
+.div__flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div__flex-box {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
 }
