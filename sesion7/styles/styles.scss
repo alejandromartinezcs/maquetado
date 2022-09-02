@@ -1,0 +1,29 @@
+$principal-color: peru;
+$font-bold: bold;
+
+h1 {
+    color: $principal-color;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: $font-bold;
+}
+
+p {
+    color: green;
+    font-weight: $font-bold;
+}
+
+.div__flex-container {
+    display: flex;
+    .div__flex-box {
+        width: 90px;
+        height: 90px;
+        border: 1px solid black;
+        background-color: $principal-color;
+        margin: 15px;
+    }
+    .div__flex-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
