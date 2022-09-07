@@ -1,10 +1,10 @@
-$principal-color: peru;
-$font-bold: bold;
+@import "vars.scss";
 
-h1 {
+h1{
     color: $principal-color;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: $font-bold;
+    font-style: italic;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
     .div__flex-box {
         width: 90px;
         height: 90px;
-        border: 1px solid black;
+        border: $standard-border;
         background-color: $principal-color;
         margin: 15px;
     }
